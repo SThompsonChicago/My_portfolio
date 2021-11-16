@@ -1,64 +1,95 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <title>My Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
-</head>
-
-
-<body>
-    <header class="chunk">
-        <h1>Stephen Thompson</h1>
-        <div>
-            <ul>
-                <li>
-                    <a href="#AboutMe">| About Me |</a>
-                </li>
-                <li>
-                    <a href="#Projects">| Projects |</a>
-                </li>
-            </ul>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  </head>
+  <body>
+      
+    <section class="hero is-info">
+        <div class="hero-body">
+          <p class="title">
+            Stephen Thompson
+          </p>
+          <p class="subtitle">
+            Full Stack Web Developer
+          </p>
         </div>
-    </header>
-
-
-    <div class="chunk" id="AboutMe">
-        <h2>About Me</h2>
-        <p>
-        <img class = mePic src="./assets/Me.png" alt="a picture of me with my wife" align="right"/>
-            I am a software developer in training, currently living in Chicago and attending the coding
-            bootcamp at Northwestern University. I will complete the program in December 2021.
-            I also have a PhD in 
-            mathematics, with a background in applications of differential equations
-            (including in epidemiology and macroeconomics). I have taught college level mathematics for
-            several years, including courses in ordinary and partial differential equations, single and 
-            multivariable calculus, linear algebra, statistics and more. For fun, I like to go on 
-            bike rides with my wife Kate (pictured with me, on the right).
-        </p>
+      </section>
+      
+      <div class="card">
+      <div class="card">
+        
+        <div class="card-content">
+          <div class="media">
+            <div class="media-left">
+              <figure class="image is-128x128">
+                <img src="./assets/Me.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="media-content">
+              <p>I am a full-stack web developer living in Chicago, currently 
+                  completing the coding boot camp at Northwestern University. I 
+                  also have a PhD in applied mathematics, with past research in 
+                  <a href=https://www.sciencedirect.com/science/article/pii/S0022247X14000705>differential equations</a>, 
+                  <a href=https://www.aimsciences.org/article/doi/10.3934/eect.2013.2.173>mathematical epidemiology</a>
+                  and
+                  <a href=https://academic.oup.com/cje/article-abstract/44/2/417/5644063>macroeconomics</a>. 
+                  I love working with the back end of web applications and am excited 
+                  to apply my broad range of analytical skills in my new career as 
+                  a full stack developer. For fun, I like to go on bike rides with my wife Kate
+                  on the North Branch Trail.</p>
+            </div>
+        </div>
+        </div>
+      </div>
     </div>
-
-
-    <div class="chunk" id="Projects">
-        <h2>Projects</h2>
-        <ul>
-            <li>
-                <a href="https://sthompsonchicago.github.io/day-planner/">Day Planner</a>
-            </li>
-            <li>
-                <a href="https://sthompsonchicago.github.io/code-quiz/">Code Quiz</a>
-            </li>
-            <li>
-                <a href="https://sthompsonchicago.github.io/weather-dashboard">Weather Dashboard</a>
-            </li>
-        </ul>
-
-
-    </div>
-
-
-</body>
-
-
+    <div class="tile is-ancestor">
+        <div class="tile is-vertical is-8">
+          <div class="tile">
+            <div class="tile is-parent is-vertical">
+              <article class="tile is-child notification is-primary">
+                <p class="title">Vertical...</p>
+                <p class="subtitle">Top tile</p>
+              </article>
+              <article class="tile is-child notification is-warning">
+                <p class="title">...tiles</p>
+                <p class="subtitle">Bottom tile</p>
+              </article>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child notification is-info">
+                <p class="title">Middle tile</p>
+                <p class="subtitle">With an image</p>
+                <figure class="image is-4by3">
+                  <img src="https://bulma.io/images/placeholders/640x480.png">
+                </figure>
+              </article>
+            </div>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child notification is-danger">
+              <p class="title">Wide tile</p>
+              <p class="subtitle">Aligned with the right tile</p>
+              <div class="content">
+                <!-- Content -->
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child notification is-success">
+            <div class="content">
+              <p class="title">Tall tile</p>
+              <p class="subtitle">With even more content</p>
+              <div class="content">
+                <!-- Content -->
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+  </body>
 </html>
