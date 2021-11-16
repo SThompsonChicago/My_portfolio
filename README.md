@@ -5,7 +5,7 @@
 
   This is my professional portfolio. It contains a short bio, links to applications I've created, my contact information, my resume and more. This website was created using the Bulma css framework. A link to the deployed application can be found here: https://sthompsonchicago.github.io/My_portfolio/
 
-  ![Picture of portfolio.](./assets/portfolio.png)
+  ![Picture of portfolio.](./assets/portfolio)
 
   ## Table of Contents
 
